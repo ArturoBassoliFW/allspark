@@ -1,0 +1,33 @@
+/* Button */
+.buttonPrimary {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 3px solid white;
+  padding: 1rem calc(1rem * 1.33);
+  text-align: center;
+  font-weight: 900;
+  transition: 0.2s ease-in-out;
+}
+.buttonPrimary:hover {
+  background-color: white;
+  color: var(--primaryColor);
+}
+
+/* tornaSu */
+.tornaSu {
+  background-image: url(asset/1F51D.svg);
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+  width: 7rem;
+  height: 7rem;
+  z-index: 1;
+  transition: all 0.5s;
+}
+.tornaSuHide {
+  opacity: 0;
+}
+.tornaSuShow {
+  opacity: 1;
+}

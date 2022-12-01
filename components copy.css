@@ -1,0 +1,17 @@
+/* Button */
+a {
+  width: 100%;
+}
+.buttonPrimary {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid white;
+  padding: 1rem calc(1rem * 1.33);
+  text-align: center;
+  transition: .2s ease-in-out;
+}
+.buttonPrimary:hover {
+  background-color: white;
+  color: var(--primaryColor);
+}
