@@ -1,4 +1,4 @@
-var swiper = new Swiper(".swiperCosaOffriamo", {
+var autoSwiper = new Swiper(".swiperCosaOffriamo", {
   slidesPerView: "auto",
   spaceBetween: 64,
   freeMode: true,
@@ -9,4 +9,11 @@ var swiper = new Swiper(".swiperCosaOffriamo", {
     delay: 1,
     disableOnInteraction: false,
   },
+});
+
+var newsSwiper = new Swiper(".newsSwiper", {
+  slidesPerView: 1.5,
+  spaceBetween: 64,
+  freeMode: true,
+  grabCursor: true,
 });
